@@ -62,6 +62,8 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/violet
 TARGET_KERNEL_CONFIG := vendor/violet-perf_defconfig
 TARGET_FORCE_PREBUILT_KERNEL := true
 BOARD_RAMDISK_OFFSET := 0x01000000
+TARGET_KERNEL_ADDITIONAL_FLAGS := AS=llvm-as AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip LD=ld.lld LLVM=1 LLVM_IAS=1
+KERNEL_SUPPORTS_LLVM_TOOLS := true
 
 # Platform
 TARGET_BOARD_PLATFORM := sm6150
