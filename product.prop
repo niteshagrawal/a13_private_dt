@@ -54,6 +54,16 @@ debug.hwui.skia_atrace_enabled=false
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
 
+# Fling
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+ro.min.fling_velocity=160 \
+ro.max.fling_velocity=20000 \
+ro.max.fling_velocity=20000 \
+ro.vendor.qti.cgroup_follow.enable=true \
+persist.vendor.qti.inputopts.enable=true \
+persist.vendor.qti.inputopts.movetouchslop=0.6 \
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # Graphics
 debug.cpurend.vsync=false
 debug.hwui.renderer=skiagl
