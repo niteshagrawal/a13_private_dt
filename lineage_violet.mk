@@ -14,6 +14,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Bootanimation Resolution
 SUSHI_BOOTANIMATION := 1080
 
+#Support Next-Gen Google assistant 
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
