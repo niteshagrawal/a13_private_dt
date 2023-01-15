@@ -53,9 +53,9 @@ git clone --depth=1 https://gitlab.com/RealYasin/vendor_xiaomi-firmware_violet.g
 
 echo 'Cloning Proton clang [5/5]'
 
-# Proton Clang
+# Prelude Clang
 
-git clone --depth=1 https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/clang-proton
+git clone --depth=1 https://gitlab.com/jjpprrrr/prelude-clang.git prebuilts/clang/host/linux-x86/clang-prelude
 
 
 
