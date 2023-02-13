@@ -357,6 +357,11 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     ueventd.qcom.rc
 
+# RCS
+PRODUCT_PACKAGES += \
+    PresencePolling \
+    RcsService
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePkgs

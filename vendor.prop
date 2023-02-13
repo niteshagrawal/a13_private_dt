@@ -186,7 +186,7 @@ persist.vendor.qg_coff_gain=1
 persist.vendor.qg_cold_temp=-150
 
 # RCS
-persist.rcs.supported=0
+persist.rcs.supported=1
 
 # Radio/RIL
 persist.radio.multisim.config=dsds
