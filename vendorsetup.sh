@@ -59,5 +59,11 @@ git clone --depth=1 https://gitlab.com/jjpprrrr/prelude-clang.git prebuilts/clan
 
 
 
+echo 'cloning Anx Camera ooooooooooffff'
+
+#Miui Camera
+
+git clone --depth=1 https://gitlab.com/Joker-V2/android_vendor_MiuiCamera.git vendor/MiuiCamera
+
 
 echo 'Completed, Now proceeding to lunch'
