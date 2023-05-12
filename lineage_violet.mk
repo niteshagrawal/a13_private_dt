@@ -11,6 +11,9 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common SuperiorOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# MiuiCamera
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 # Bootanimation Resolution
 SUSHI_BOOTANIMATION := 1080
 
