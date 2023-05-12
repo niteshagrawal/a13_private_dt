@@ -8,7 +8,7 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common SuperiorOS stuff.
+# Inherit some common RisingOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # MiuiCamera
@@ -24,7 +24,7 @@ TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BUILD_APERTURE_CAMERA := true
+TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_ENABLE_BLUR := true
 TARGET_USE_PIXEL_FINGERPRINT := true
 
@@ -42,9 +42,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # RiceDroid Flags
-RICE_MAINTAINER := AssGuardGod
-RICE_DEVICE := violet
-RICE_OFFICIAL := true
-RICE_CHIPSET := sm6150
+RISING _MAINTAINER := AssGuardGod
+RISING_BUILDTYPE := OFFICIAL
 WITH_GMS := true
 TARGET_USE_GOOGLE_TELEPHONY := false
